@@ -13,4 +13,4 @@ https://meghark.github.io/run-buddy/
 ## Contribution
 Made by Megha Kulathattil
 
-### @2019 Run Buddy, Inc
+### @2019 Run Buddy, Incorporated
