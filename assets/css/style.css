@@ -147,13 +147,23 @@ button{
 }
 /*Hero Style End */
 
+.flex-row{
+    display: flex;
+}
+
 .section-title{
     font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
+    color: #024e76;   
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%
+
+}
+
+.intro div p{
+    text-align: center;
 }
 
 .primary-border{
@@ -164,50 +174,37 @@ button{
     border-color: #39a6b2;
 }
 
-.intro{
-    text-align: center;
-}
-
-.intro p{
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin:  0 auto;
-}
-
 .steps{
-    background-color: #fce138;
-    text-align: center;
+    background-color: #fce138;    
 }
 
-.steps div{
-    margin-bottom: 80px;    
+.step{
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.steps img{
-    width: 15%;
-    margin: 10px 0;
-}
-
-.steps h3{
+.step h3{
     color: #024e76;
     font-size: 46px;
-    margin-top: 10px;
 }
 
-.steps p{
+.steps-text p{
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
 }
 
-span{
-    font-size: 38px;
+.step-text h4{
+    font-size: 26px;
+    line-height: 1.6;
+    color: #024e76;
 }
 
-.trainers{
-    text-align: center;
-}
 
 .trainer{
     width: 900px;
@@ -254,8 +251,7 @@ span{
 
 .contact{
     background: #024e76;
-    text-align: center;
-}
+    }
 
 .contact h2{
     color: #fce138;
